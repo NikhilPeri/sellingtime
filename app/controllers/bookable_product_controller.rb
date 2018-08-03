@@ -1,2 +1,0 @@
-class BookableProductController < ApplicationController
-end
