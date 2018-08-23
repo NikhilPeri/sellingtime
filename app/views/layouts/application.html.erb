@@ -4,11 +4,11 @@
     <title>Sellingtime</title>
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://sdks.shopifycdn.com/polaris/2.5.0/polaris.min.css" />
   </head>
 
   <body>
+    <div id='react-mount'></div>
     <%= yield %>
   </body>
 </html>
